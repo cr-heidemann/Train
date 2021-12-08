@@ -105,6 +105,6 @@ trainer.train()
 #Save Model
 print("Save")
 trainer.save_model("./Modelle/BertBase/sent_base_2.model")
-trainer.evaluate()
+#trainer.evaluate()
 print("Done")
 
